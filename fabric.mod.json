@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "mykingdom",
+  "version": "${version}",
+  "name": "My Kingdom",
+  "description": "Build and manage your own kingdom, starting with two villagers.",
+  "authors": ["My Kingdom Team"],
+  "contact": {},
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.mykingdom.MyKingdom"],
+    "client": ["com.mykingdom.client.MyKingdomClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.14.21",
+    "minecraft": "1.20.1",
+    "java": ">=17",
+    "fabric-api": "*"
+  }
+}
